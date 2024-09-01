@@ -2,7 +2,7 @@
 This base command will generate the sin file for [csharp-language-server](https://github.com/razzmatazz/csharp-language-server).
 and compile_commands.json for [clangd](https://clangd.llvm.org).
 
-
+First you may need to follow [this](https://www.youtube.com/watch?v=94FvzO1HVzY&pp=ygUOdW5yZWFsIHByb2plY3Q%3D)
 ``` sh
 #I use Alacritty with msys2 in windows, but powershell should be work too!
 
