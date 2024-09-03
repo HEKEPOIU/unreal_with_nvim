@@ -11,6 +11,5 @@ ${UnrealPath}/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -Projec
 #SomeTime You may need to dotnet restore(not sure about the reason).
 
 #Generate compile_commands
-${UnrealPath}/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -GenerateClangDatabase Development Win64 ${UnrealUprojectPath} -waitmutex -NoHotReload 
-mv ${UnrealPath}/compile_commands.json ${ProjectPath} 
+${UnrealPath}/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe -GenerateClangDatabase Development Win64 ${UnrealUprojectPath} -waitmutex -NoHotReload -OutputDir=${ProjectPath}
 ```
